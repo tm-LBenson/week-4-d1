@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Document</title>
+
+
+
+  </head>
+  <body>
+    <h1 class="text-2xl md:text-3xl lg:text-4xl">Same element, different sizes</h1>
+
+    <div class="p-4 bg-red-900 md:p-6 lg:p-8 md:bg-slate-800" >Hello</div>
+
+    <main class="mt-4">
+      <section class="flex flex-col md:flex-row gap-4 md:px-4">
+        <div class=" md:grow">Item 1</div>
+        <div class=" md:grow">Item 2</div>
+        <div class=" md:grow">Item 3</div>
+      </section>
+    </main>
+  </body>
+</html>
